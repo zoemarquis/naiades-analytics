@@ -70,24 +70,16 @@ The project uses several datasets:
 
 ## 🚫 Limitations
 - Seasonal bias in hydrobiological data (overrepresentation in summer)
-
 - Loss of approximately 50% of stations during data joining
-
 - Imbalance in the number of stations per region
-
 - Extensive imputation of missing values using the median
-
 - Limited exploration of different time lags
 
 ## 🌱Possible improvements
 - Explore different value aggregation methods (e.g., mean instead of median)
-
 - Test alternative temporal aggregations (monthly, yearly)
-
 - Investigate additional time lags (e.g., 1 year) to better capture seasonal variations
-
 - Implement alternative clustering approaches such as K-Means with Dynamic Time Warping or K-Medoids
-
 - Balance the dataset to ensure equal representation of hydroecoregions
 
 ## 📝 Documentation
