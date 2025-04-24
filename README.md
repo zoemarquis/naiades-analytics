@@ -21,7 +21,7 @@ The project uses several datasets:
 
 ## ⚙️ Methodology
 
-### Data preparation
+### 1. Data preparation
 - **Cleaning the data**:
    - Removal of duplicates and outliers
    - Selection of relevant columns
@@ -36,36 +36,36 @@ The project uses several datasets:
    - Joining physicochemical, hydrobiological, and station tables
    - Mapping stations to their respective hydroecoregions
 
-### Clustering analysis
+### 2. Clustering analysis
 - Implementation of K-means clustering to group stations based on their characteristics
 - Determination of optimal number of clusters using elbow method, Davies-Bouldin coefficient, and silhouette score
 - Comparison of clusters with actual hydroecoregions to evaluate coherence
 - Analysis of different time lags to assess their impact on clustering results
 
-### Regression analysis
+### 3. Regression analysis
 - Prediction of I2M2 from physicochemical parameters, spatial information, and temporal dimensions
 - Use of 6-month lag for physicochemical parameters based on clustering results
 - Implementation of regularization techniques (Lasso) to identify the most influential parameters
 - Evaluation of model performance and interpretation of results
 
 ## ✨ Key findings
-1. About one-third of stations were correctly classified into their respective hydroecoregions through clustering
+- About one-third of stations were correctly classified into their respective hydroecoregions through clustering
 
-2. The 6-month lag approach performed slightly better than the 1-month lag, suggesting that the impact of physicochemical data on hydrobiological state is more pronounced over longer periods
+- The 6-month lag approach performed slightly better than the 1-month lag, suggesting that the impact of physicochemical data on hydrobiological state is more pronounced over longer periods
 
-3. The most discriminating parameters for hydroecoregion clustering were:
+- The most discriminating parameters for hydroecoregion clustering were:
    - I2M2
    - Nitrates
    - Conductivity at 25°C
    - Organic carbon
    - Water temperature
 
-4. For I2M2 prediction, the most important parameters were:
+- For I2M2 prediction, the most important parameters were:
    - Conductivity at 25°C
    - Nitrites
    - Organic carbon
 
-5. Negative correlations were observed between I2M2 and both conductivity at 25°C and nitrate concentrations
+- Negative correlations were observed between I2M2 and both conductivity at 25°C and nitrate concentrations
 
 
 ## 🚫 Limitations
