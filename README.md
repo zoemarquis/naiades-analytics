@@ -88,7 +88,7 @@ All analysis details, code, and results are available in the [notebook](naiades.
 ## 🎓 Academic context
 This project was developed during the second year of the Master’s program in Data Science and Complex Systems at the University of Strasbourg.
 
-The [original project assignment](./ressources/project-assignment-fr.pdf) (in french) is also available for reference.
+The [original project assignment](./resources/project-assignment-fr.pdf) (in french) is also available for reference.
 
 ## 👷‍♂️ Contributors
 - Zoé MARQUIS
