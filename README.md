@@ -1,5 +1,5 @@
 # Naïades project
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 ## 🔎 Overview
 This project explores the relationship between the physicochemical properties of water and its biological state, using data from the [naiades](https://naiades.eaufrance.fr/) website.
 
